@@ -3,6 +3,7 @@
 <!-- vim-markdown-toc GFM -->
 * [获取当前Activity](#获取当前activity)
 * [获取当前Window](#获取当前window)
+* [相关链接](#相关链接) 
 <!-- vim-markdown-toc -->
 
 
@@ -23,4 +24,7 @@ adb shell dumpsys activity  | findstr "mFocusedActicity"
 ```sh
 adb shell dumpsys window w | grep \/  |  grep name=
 ```
+
+### 相关链接
+[官方dumpsys命令讲解](https://developer.android.com/studio/command-line/dumpsys)
 
